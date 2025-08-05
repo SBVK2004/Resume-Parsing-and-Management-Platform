@@ -3,24 +3,24 @@
 ### Objective
 #### This project is a high-performance web application built with FastAPI that automatically extracts, anonymizes, and structures key information from resumes. Its primary purpose is to streamline recruitment workflows by providing a clean, structured JSON output that protects candidate privacy by masking Personally Identifiable Information (PII) like names, emails, and phone numbers.
 
-### Technology Stack
-#### Backend Framework: FastAPI
+### • Technology Stack
+#### 1.Backend Framework: FastAPI
 
-#### Resume Parsing:
+#### 2.Resume Parsing:
 
 #### PyPDF2 for PDF files
 
-#### python-docx for DOCX files
+#### 3. python-docx for DOCX files
 
-#### Pillow and pytesseract for OCR on image files (JPG/PNG)
+#### 4. Pillow and pytesseract for OCR on image files (JPG/PNG)
 
-#### Natural Language Processing (NLP):
+#### 5.Natural Language Processing (NLP):
 
-#### spaCy for Named Entity Recognition (NER) to detect and anonymize names and addresses.
+#### 6.spaCy for Named Entity Recognition (NER) to detect and anonymize names and addresses.
 
-#### Project Management: uvicorn and pip
+#### 7.Project Management: uvicorn and pip
 
-### Key Features
+### • Key Features
 #### Single, Unprotected Endpoint: A simple POST endpoint to upload resumes and receive a JSON response.
 
 #### Multi-Format Support: Handles resumes in PDF, DOCX, JPG, and PNG formats.
@@ -35,7 +35,7 @@
 
 #### Configurable JSON Output: The output is a structured JSON file with configurable field names for easy integration into other systems.
 
-### How It Works (Steps)
+### • How It Works (Steps)
 #### File Upload: A user uploads a resume file to the /upload-and-parse/ endpoint.
 
 #### File Validation: The API validates the file type and size to ensure it meets the requirements.
@@ -48,13 +48,13 @@
 
 #### JSON Output: The extracted and anonymized data is compiled into a single, structured JSON object and returned as the API's response.
 
-### Setup and Installation
+### • Setup and Installation
 #### Prerequisites
 #### Python 3.7+
 
 #### pip
 
-### Steps
+### • Steps
 #### go to command prompt 
 #### mkdir my_project
 #### cd my_project 
@@ -75,7 +75,7 @@
 
 #### The application will now be running on http://127.0.0.1:8000.
 
-### Usage
+### • Usage
 #### Once the server is running, you can access the interactive API documentation at:
 #### http://127.0.0.1:8000/docs
 

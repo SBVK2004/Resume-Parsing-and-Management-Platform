@@ -80,3 +80,5 @@
 #### http://127.0.0.1:8000/docs
 
 #### From there, you can use the Swagger UI to test the /upload-and-parse/ endpoint by uploading a resume file.
+<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/aca6b755-2f70-4afb-b1ae-9297fa131e1e" />
+
